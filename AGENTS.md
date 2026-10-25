@@ -24,3 +24,5 @@ Standard scripts live in `package.json`; run them with pnpm (e.g. `pnpm dev`). N
 ## Copy rules (antislop)
 
 Site copy follows the antislop rules: no em dashes, no invented metrics or testimonials, no generic AI phrasing. Project notes describe real architecture and real decisions. The `antislop` and `antislop-copywriting` skills are installed globally for OpenCode at `~/.config/opencode/skills/` and as an Antigravity plugin at `~/.gemini/config/plugins/antislop`.
+
+The mode is **during** and saved as a global preference, so agents apply the rules while writing and never ask which mode to use. Announce `antislop active: during (global preference).` once before the first edit, and include the Delivery Gate report with evidence in the deliverable. The mode file is `%APPDATA%\antislop\settings.json`.
