@@ -37,6 +37,6 @@ export const EXPERIENCE: Experience[] = [
     location: 'Remote',
     logo: 'https://crossinghurdles.com/logo.svg',
     technologies: ['Python', 'Docker', 'AI/ML', 'CI/CD'],
-    title: 'Backend Engineer',
+    title: 'AI Backend Engineer',
   },
 ];
