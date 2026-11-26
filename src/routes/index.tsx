@@ -1,5 +1,10 @@
 import { createFileRoute, Link, useLoaderData } from '@tanstack/react-router';
-import { ChevronRightIcon, GithubIcon, LinkedinIcon } from 'lucide-react';
+import {
+  ChevronRightIcon,
+  FileTextIcon,
+  GithubIcon,
+  LinkedinIcon,
+} from 'lucide-react';
 
 import { ExperienceCard } from '@/components/experience-card';
 import { SmoothScrollProvider } from '@/components/lenis';
@@ -65,15 +70,27 @@ function App() {
             </div>
           </div>
 
-          <a
-            href="https://cal.com/hugoedm"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="mt-4" size="sm">
-              Schedule a call
-            </Button>
-          </a>
+          <div className="flex flex-wrap items-center gap-3 mt-4">
+            <a
+              href="https://cal.com/hugoedm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button size="sm">
+                Schedule a call
+              </Button>
+            </a>
+            <a
+              href="/CV_Muhammad_Ziyad_Hasan.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="sm">
+                <FileTextIcon className="size-4 mr-2" />
+                Preview CV
+              </Button>
+            </a>
+          </div>
         </section>
         <section id="about">
           <BlurFade delay={BLUR_FADE_DELAY * 2}>

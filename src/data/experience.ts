@@ -11,6 +11,17 @@ export interface Experience {
 
 export const EXPERIENCE: Experience[] = [
   {
+    company: 'Crossing Hurdles',
+    companyUrl: 'https://www.linkedin.com/company/crossing-hurdles/',
+    dates: 'Mar 2026 - Jun 2026',
+    description:
+      "Built multi-agent benchmark tasks for SwarmBench from real open-source changes such as bug fixes, migrations, and refactors. Wrote Python verification scripts that check whether an agent's code change is correct.",
+    location: 'Remote',
+    logo: '/images/logos/crossinghurdles.svg',
+    technologies: ['Python', 'Docker', 'AI/ML', 'CI/CD'],
+    title: 'AI Backend Engineer',
+  },
+  {
     company: 'PT Pangestu Suryaning Famili',
     companyUrl: 'https://pangestu-sf.com/',
     dates: 'Jan 2026 - Feb 2026',
@@ -27,16 +38,5 @@ export const EXPERIENCE: Experience[] = [
       'MySQL',
     ],
     title: 'Full Stack Developer',
-  },
-  {
-    company: 'Crossing Hurdles',
-    companyUrl: 'https://www.linkedin.com/company/crossing-hurdles/',
-    dates: 'Mar 2026 - Jun 2026',
-    description:
-      "Built multi-agent benchmark tasks for SwarmBench from real open-source changes such as bug fixes, migrations, and refactors. Wrote Python verification scripts that check whether an agent's code change is correct.",
-    location: 'Remote',
-    logo: 'https://crossinghurdles.com/logo.svg',
-    technologies: ['Python', 'Docker', 'AI/ML', 'CI/CD'],
-    title: 'AI Backend Engineer',
   },
 ];
