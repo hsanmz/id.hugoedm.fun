@@ -13,7 +13,7 @@ export const EXPERIENCE: Experience[] = [
   {
     company: 'PT Pangestu Suryaning Famili',
     companyUrl: 'https://pangestu-sf.com/',
-    dates: 'Mar 2026 - Present',
+    dates: 'Jan 2026 - Feb 2026',
     description:
       'Built the payroll system for PT Pangestu Suryaning Famili in Laravel 11 and MySQL. Staff manage employee records, record attendance, and run monthly salary distributions from one admin panel.',
     location: 'Bekasi - Sentra Kota Jati Bening',
@@ -31,7 +31,7 @@ export const EXPERIENCE: Experience[] = [
   {
     company: 'Crossing Hurdles',
     companyUrl: 'https://www.linkedin.com/company/crossing-hurdles/',
-    dates: 'Jan 2026 - Mar 2026',
+    dates: 'Mar 2026 - Jun 2026',
     description:
       "Built multi-agent benchmark tasks for SwarmBench from real open-source changes such as bug fixes, migrations, and refactors. Wrote Python verification scripts that check whether an agent's code change is correct.",
     location: 'Remote',
